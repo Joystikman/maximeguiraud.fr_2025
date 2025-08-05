@@ -19,11 +19,6 @@ header{
     color: black; 
 }
 
-header h1{
-    /*filter: drop-shadow(1px 1px white) drop-shadow(1px -1px white)
-    drop-shadow(-1px 1px white) drop-shadow(-1px -1px white);*/
-}
-
 nav{
     position: fixed;
     top: 52px;
