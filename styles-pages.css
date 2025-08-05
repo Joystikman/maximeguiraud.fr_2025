@@ -1,0 +1,112 @@
+body{
+    padding: 20px 25%;    
+    background-size: 16px 16px;
+    background-image:
+        linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+        background-position: center;
+}
+
+.paper{
+    padding: 44px;
+}
+
+header{
+    color: white; 
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'LeagueGothic', sans-serif;
+}
+
+header p{
+    font-size: 2em;
+}
+
+header img{
+    width: 166px;
+    height: auto;
+}
+
+.info{
+    margin: 16px 0px;
+}
+
+nav{
+    margin: 12px 0px;
+    font-size: 0.8em;
+}
+
+/*specifique page*/
+
+.purble{
+    background-color: #F5C7B0;
+}
+
+.metronomes{
+    background-color: #8ABFB7;
+}
+
+.digitalenatif{
+    background-color: #E8E8E8;
+}
+
+.dn_post{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 12px 0px;
+}
+.dn_post div{
+    margin: 4px;
+    padding: 28px;
+    background-color: #E8E8E8;
+    max-width: 100px;
+}
+
+.autres{
+    background-color: var(--primary-color);
+}
+.creations{
+    margin-top: 12px;
+}
+.creations details{
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+}
+.creations details div{
+    margin-top: 12px;
+}
+
+.articles{
+    background-color: #EDB4C1;
+}
+
+.post{
+    background-color: var(--background-color);
+    margin: 16px 0px;
+}
+.post img{
+    width: 100%;
+    height: 82px;
+}
+.post h2{
+    padding: 8px;
+}
+
+details{
+    margin: 12px 0px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images img{
+    max-width: 360px;
+    margin: 12px;
+}

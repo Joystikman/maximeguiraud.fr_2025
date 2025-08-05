@@ -1,0 +1,92 @@
+body{
+    margin: 20px 25%;
+    background-color: antiquewhite;
+    color: black;
+}
+
+header{
+    margin: 42px 0px;
+    padding: 32px;
+    border: solid var(--grid-color) 0px;
+    outline: solid var(--primary-color) 0px;
+    background-color: var(--primary-color);
+    background-size: 16px 16px;
+    background-image:
+        linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+        background-position: center;
+    font-family: 'LeagueGothic', sans-serif;
+    color: black; 
+}
+
+header h1{
+    /*filter: drop-shadow(1px 1px white) drop-shadow(1px -1px white)
+    drop-shadow(-1px 1px white) drop-shadow(-1px -1px white);*/
+}
+
+nav{
+    position: fixed;
+    top: 52px;
+    left: 78%;
+    font-size: 0.84em;
+}
+nav a{
+    text-decoration: none;
+    margin: 12px 0px 0px 24px;
+}
+
+.project{
+    text-transform: lowercase;
+    margin: 4px 0px;
+    padding: 8px 32px;
+    transition-property: background-color, outline;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.project:hover{
+    margin-left: 12px;
+}
+
+.purble{
+    background-color: #F5C7B0;
+}
+.purble:hover{
+    background-color: #F56119;
+}
+
+.digitalenatif{
+    background-color: #E8E8E8;
+}
+.digitalenatif:hover{
+    background-color: #CCCCCC;
+}
+
+.metronomes{
+    background-color: #9ab8b3;
+}
+.metronomes:hover{
+    background-color: #4BC0AD;
+}
+
+.jv{
+    background-color: #848f93;
+}
+.jv:hover{
+    background-color: #3C7D96;
+}
+
+.creations{
+    background-color: var(--primary-color);
+}
+.creations:hover{
+    background-color: #F5CF89;
+}
+
+.articles{
+    background-color: #EDB4C1;
+}
+.articles:hover{
+    background-color: #EE4266;
+}
+
