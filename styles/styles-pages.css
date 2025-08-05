@@ -4,7 +4,7 @@ body{
     background-image:
         linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
         linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
-        background-position: center;
+        background-position: top;
 }
 
 .paper{
@@ -67,13 +67,13 @@ nav{
 }
 
 .autres{
-    background-color: var(--primary-color);
+    background-color: #3C7D96;
 }
 .creations{
     margin-top: 12px;
 }
 .creations details{
-    background-color: var(--primary-color);
+    background-color: #3C7D96;
     padding: 12px 24px;
 }
 .creations details div{
@@ -98,6 +98,10 @@ nav{
 
 details{
     margin: 12px 0px;
+}
+
+details a{
+    margin-left: 12px;
 }
 
 .images{

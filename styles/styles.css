@@ -65,17 +65,17 @@ nav a{
 }
 
 .jv{
-    background-color: #848f93;
+    background-color: var(--primary-color);
 }
 .jv:hover{
-    background-color: #3C7D96;
+    background-color: #F5CF89;
 }
 
 .creations{
-    background-color: var(--primary-color);
+    background-color: #848f93;
 }
 .creations:hover{
-    background-color: #F5CF89;
+    background-color: #3C7D96;
 }
 
 .articles{
