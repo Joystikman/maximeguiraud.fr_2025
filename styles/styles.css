@@ -19,6 +19,12 @@ header{
     color: black; 
 }
 
+.tag{
+    margin: -16px 0px 8px 0px;
+    color: black;
+    font-size: 2em;
+}
+
 nav{
     position: fixed;
     top: 52px;
@@ -28,6 +34,10 @@ nav{
 nav a{
     text-decoration: none;
     margin: 12px 0px 0px 24px;
+}
+
+summary:hover{
+    cursor: pointer;
 }
 
 .project{
@@ -85,3 +95,17 @@ nav a{
     background-color: #EE4266;
 }
 
+@media only screen and (max-width: 811px){
+    body{
+        margin: 8px 8px;
+    }
+    header{
+        margin: 0px;
+        margin-bottom: 42px;
+    }
+    nav{
+        position: fixed;
+        top: 28px;
+        left: 74%;
+    }
+}
