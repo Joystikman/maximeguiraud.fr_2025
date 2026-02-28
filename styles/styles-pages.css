@@ -1,31 +1,32 @@
 body{
     padding: 20px 25%;    
-    background-size: 16px 16px;
+    /*background-size: 16px 16px;
     background-image:
         linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
         linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
-        background-position: top;
+        background-position: top;*/
 }
 
 .paper{
-    padding: 44px;
+    padding: 3.5rem;
 }
 
 header{
     color: white; 
-    margin-bottom: 16px;
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'LeagueGothic', sans-serif;
+    
 }
 
 header p{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 header img{
-    width: 166px;
+    width: 11rem;
     height: auto;
 }
 
@@ -35,34 +36,50 @@ header img{
 
 nav{
     margin: 12px 0px;
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 /*specifique page*/
 
-.purble{
+.purble_back{
     background-color: #F5C7B0;
 }
-
-.metronomes{
-    background-color: #8ABFB7;
+.purble{
+    background-color: #F56119;
 }
 
-.digitalenatif{
+.metronomes_back{
+    background-color: #8ABFB7;
+}
+.metronomes{
+    background-color: #4BC0AD;
+}
+
+.digitalenatif_back{
     background-color: #E8E8E8;
+}
+.digitalenatif{
+    background-color: #CCCCCC;
 }
 
 .dn_post{
     margin-top: 12px;
 }
 .dn_post details{
-    background-color: #E8E8E8;
+    background-color: #CCCCCC;
     padding: 12px 24px;
 }
 .dn_post details div{
     margin-top: 12px;
 }
 
+.tiktok-embed{
+    margin: 0px;
+}
+
+.autres_back{
+    background-color: #848f93;
+}
 .autres{
     background-color: #3C7D96;
 }

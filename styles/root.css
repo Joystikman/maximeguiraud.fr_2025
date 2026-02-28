@@ -67,6 +67,12 @@ time, mark, audio, video {
     font-family: 'LeagueGothic';
     src: url('fonts/LeagueGothic-1.601/static/OTF/LeagueGothic-Condensed.otf');
     font-weight: normal;
+    font-style: oblique;
+}
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('fonts/LeagueGothic-1.601/static/OTF/LeagueGothic-Regular.otf');
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -96,15 +102,20 @@ time, mark, audio, video {
     --secondary-color : #000;
 }
 
+body{
+    font-family: "LeagueMono", sans-serif;
+    font-size: 13px;
+}
+
 h1{
-    font-size: 6em;
+    font-size: 5rem;
 }
 h2{
-    font-size: 1em;
+    font-size: 0.8rem;
     margin: 0%;
 }
 h3{
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 a{
@@ -112,12 +123,7 @@ a{
     text-decoration: none;
 }
 
-body{
-    font-family: "LeagueMono", sans-serif;
-    font-size: 0.8em;
-}
-
 footer{
-    margin: 28px 0px;
-    font-size: 0.8em;
+    margin: 50% 0px 5rem 0px;
+    font-size: 0.8rem;
 }
