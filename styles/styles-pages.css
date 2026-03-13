@@ -94,20 +94,25 @@ nav{
     margin-top: 12px;
 }
 
+.articles_back{
+    background-color: #eeced5;
+}
 .articles{
     background-color: #EDB4C1;
 }
 
 .post{
-    background-color: var(--background-color);
+    background-color: #EDB4C1;
     margin: 16px 0px;
+    padding: 8px;
 }
-.post img{
-    width: 100%;
-    height: 82px;
+.post:hover{
+    color: white;
 }
+
 .post h2{
     padding: 8px;
+    margin-left: 12px;
 }
 
 summary:hover{
@@ -132,6 +137,44 @@ details a{
     max-width: 360px;
     margin: 12px;
 }
+
+/*single*/
+.single_header{
+    padding : 3.5rem 0rem 1rem 0rem;
+    color: black;
+}
+.single_header h1{
+    color: black;
+}
+
+.single_back{
+    background-color: #fffbf1;
+}
+
+.single_thumbnail{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.single_thumbnail img{
+    width: 20rem;
+}
+.single{
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+}
+.single p{
+    margin: 2rem 0rem;
+}
+.single b{
+    font-weight: bold;
+}
+.single i{
+    font-style: italic;
+}
+.single img{
+    width: 85%;
+}
+
 
 @media only screen and (max-width: 811px){
     body{
