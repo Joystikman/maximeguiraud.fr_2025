@@ -41,6 +41,27 @@ nav{
 
 /*specifique page*/
 
+.articles_back{
+    background-color: #eeced5;
+}
+.articles{
+    background-color: #EDB4C1;
+}
+
+.post{
+    background-color: #EDB4C1;
+    margin: 16px 0px;
+    padding: 8px;
+}
+.post:hover{
+    color: white;
+}
+
+.post h2{
+    padding: 8px;
+    margin-left: 12px;
+}
+
 .purble_back{
     background-color: #F5C7B0;
 }
@@ -92,27 +113,6 @@ nav{
 }
 .creations details div{
     margin-top: 12px;
-}
-
-.articles_back{
-    background-color: #eeced5;
-}
-.articles{
-    background-color: #EDB4C1;
-}
-
-.post{
-    background-color: #EDB4C1;
-    margin: 16px 0px;
-    padding: 8px;
-}
-.post:hover{
-    color: white;
-}
-
-.post h2{
-    padding: 8px;
-    margin-left: 12px;
 }
 
 summary:hover{
